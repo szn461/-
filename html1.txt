@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业人事管理系统</title>
+</head>
+<body>
+<FONT SIZE="7"><FONT COLOR="#ffb7c5"><CENTER>企业人事管理系统</CENTER></font></font><br>
+<form action="/polls/index" method="get">
+    <FONT SIZE="7"><FONT COLOR="#ffb7c5"><CENTER>登录页面</CENTER></font></font><input name="user"/><br>
+    <p><label><CENTER><label>用户名：</label><input /><label> 密码：</label><input /></CENTER></label><input name="pwd"/></p>
+    <input type="submit" value="登录">
+</form>
+</body>
+</html>

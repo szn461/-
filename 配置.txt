@@ -1,0 +1,34 @@
+运行环境要求如下：
+1、CPU主频不小于1.6GHZ；
+2、内存容量不小于512M；
+3、硬盘容量不小于40G；
+4、操作系统Windows 10或更高版本；；
+数据库安装Navicat for MYSQL16.0.14版本。
+系统采用基于Python语言的Django框架开发，数据库选用MySQL实现。整个系统操作简单，配置方便，实用性也比较好，易于维护。
+其中系统数据库文件包中gongzi.sql为数据库导出源码文件，可以利用Navicat MySQL等工具，重新导入使用，具体配置信息如下： 
+'ENGINE': 'django.db.backends.mysql',
+'NAME': 'gongzi',
+'USER': 'root',
+'PASSWORD': 'szn2yuyang',
+'HOST': '127.0.0.1',
+'PORT': '3306',
+编译器pycharm版本为2023.0.1，需要在pycharm上下载所需插件，各插件版本：
+certifi==2021.5.30
+chardet==4.0.0
+Django==3.0.8
+idna==2.10
+Pillow==10.3.0
+pytz==2024.1
+requests==2.25.1
+sqlparse==0.4.1
+urllib3==1.26.5
+mysqlclient==2.2.4
+
+
+管理员账号：szn461
+123456
+
+cd 企业人事管理系统
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
