@@ -1,0 +1,18 @@
+B
+    ��2d?  ?               @   s.   d dl mZmZ d dlZG dd? dej?ZdS )?    )?migrations?modelsNc            
+   @   s  e Zd ZdZg Zejdde jddddd?fd e j	dd	d
+?fd
+e j	dd
+d
+?fde j
+ddd?fde j
+dddd?fde j	dddd?fde jddd?fg d?ejdde jddddd?fd e j	ddd
+?fd e j
+d!d"d?fd#e jd$d%d&?fd'e jejj jjd(d)d*?fgd?gZd+S ),?MigrationT?Book?idF?ID)?auto_created?primary_key?serialize?verbose_name?name�   u   书籍员工名字)?max_lengthr
+   ?author�@   u   职位?priceg        u   薪资)?defaultr
+   ?publish_dateu   入职时间)?blank?nullr
+   ?categoryu	   未分类�    u   书籍分类)r   r   r
+   ?create_datetimeu   添加日期)?auto_now_addr
+   )r   ?fields?Imageu   图片员工名字?description? u   图片考勤情况?imgzimage/%Y/%m/%d/u   图片)?upload_tor
+   ?bookzmanagement.Booku   所属书�??on_delete?tor
+   N)?__name__?__module__?__qualname__?initial?dependenciesr   ?CreateModelr   ?AutoField?CharField?FloatField?DateField?DateTimeField?TextField?ImageField?ForeignKey?django?db?deletion?CASCADE?operations? r6   r6   �q   E:\木与风\木与风\代码汇总\django工资管理系统1\chaoshidaogou\management\migrations\0001_initial.pyr       s$   r   )?django.dbr   r   ?django.db.models.deletionr1   r   r6   r6   r6   r7   ?<module>   s   

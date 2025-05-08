@@ -1,0 +1,10 @@
+B
+    ?^?  ?               @   s0   d Z ddlZddlmZ ej?dd? e? ZdS )z?WSGI config for BookManagement project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/
+?    N)?get_wsgi_application?DJANGO_SETTINGS_MODULEzBookManagement.settings) ?__doc__?os?django.core.wsgir   ?environ?setdefault?application? r
+   r
+   �b   E:\木与风\木与风\代码汇总\django工资管理系统1\chaoshidaogou\BookManagement\wsgi.py?<module>   s   
